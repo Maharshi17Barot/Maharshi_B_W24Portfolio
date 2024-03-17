@@ -44,7 +44,7 @@ export default function Project({
           </p>
           <Link
             href={`${
-              projectsData.find((project) => project.title === title)
+              (projectsData.find((project) => project.title === title) as ProjectProps)
                 ?.gitLink || ""
             }`}
             className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-4  rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"

@@ -114,6 +114,7 @@ export const projectsData = [
       "Natural Language Processing",
     ],
     imageUrl: personalAi,
+    gitLink: "https://github.com/Maharshi17Barot/text-to-speech",
   },
 ] as const;
 
