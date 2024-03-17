@@ -59,7 +59,7 @@ interface ProjectData {
   description: string;
   tags: string[];
   imageUrl: string;
-  gitLink: string; // Ensure gitLink is included in the interface
+  gitLink?: string; // Ensure gitLink is included in the interface
 }
 
 export const projectsData = [
@@ -100,7 +100,7 @@ export const projectsData = [
       "Natural Language Processing",
     ],
     imageUrl: textToSpeech,
-    gitLink: "https://github.com/Maharshi17Barot/text-to-speech"
+    gitLink: "https://github.com/Maharshi17Barot/text-to-speech",
   },
   {
     title: "Personal A.I.",
